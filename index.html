@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Ubuntu:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <title>Online Class</title>
+</head>
+
+<body>
+    <!-- Навигация -->
+    <nav class="nav lock-padding">
+        <div class="container">
+            <div class="navigation">
+                <div class="nav__logo">
+                    <a href="##">
+                        <img data-anchor='.header' class="aimg nav__link" src="./img/logo.svg" alt="class">
+                    </a>
+                </div>
+                <div class="menu-btn _close">
+                    <span class="icon"></span>
+                    <span class="text">MENU</span>
+                </div>
+                <ul class="nav__navigation">
+                    <li class="nav__but">
+                        <a data-anchor='.header' href="##" class="nav__link">Домой</a>
+                    </li>
+                    <li class="nav__but">
+                        <a data-anchor='.about' href="##" class="nav__link">О нас</a>
+                    </li>
+                    <li class="nav__but">
+                        <a data-anchor='.courses' href="##" class="nav__link">Курсы</a>
+                    </li>
+                    <li class="nav__but">
+                        <a data-anchor='.help' href="##" class="nav__link">Помощь</a>
+                    </li>
+                </ul>
+                <div class="nav__account">
+                    <div class="nav__search">
+                        <input class="nav__search-open" id="open-search" type="search"
+                            placeholder="Чему вы хотите научиться?">
+                        <a class="search__link" href="#open-search">
+                            <svg class='search__img'>
+                                <use xlink:href='./img/icon/icon.svg#search'></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="account">
+                        <a class="account__link log-in in-hover popup-link" href="#popup-inout">
+                            <svg class='account__img'>
+                                <use xlink:href='./img/icon/icon.svg#log-in'></use>
+                            </svg>
+                            <span class="account__text ">Вход</span>
+                        </a>
+                    </div>
+                    <div class="account">
+                        <a class="account__link reg-hover popup-link" href="#popup-reg">
+                            <svg class='account__img reg-img'>
+                                <use xlink:href='./img/icon/icon.svg#account'></use>
+                            </svg>
+                            <span class="account__text">Регистрация</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Container -->
+    </nav>
+    <!-- Первая секция -->
+    <header class="header">
+        <div class="container">
+            <div class="header__main">
+                <div class="header__show">
+                    <h1 class="header__title">
+                        Современное классное обучение с удовольствием
+                    </h1>
+                    <div class="header__text">
+                        <p>Lorem Ipsum - это просто фиктивный текст печатной и наборной промышленности. Lorem Ipsum был
+                            отраслевым стандартом.</p>
+                    </div>
+                    <div class="header__button">
+                        <a href="##" class="button">Начать</a>
+                    </div>
+                </div>
+                <div class="header__img">
+                    <img src="./img/s1.png" alt="s1">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <div class="about__header">
+                <div class="hv-center">
+                    <div class="about__inside">
+                        <h2 class="about__title">Наш Глобальный класс</h2>
+                        <h3 class="about__subtitle">Lorem Ipsum - это просто фиктивный текст печатной и наборной
+                            промышленности. Lorem Ipsum был отраслевым стандартом.</h3>
+                    </div>
+                </div>
+                <div class="about__description">
+                    <a href="##" class="about__description-link">
+                        <div class="desc__card-info card-red">
+                            <div class="desc__img hv-center card-red">
+                                <svg class='about-1'>
+                                    <use xlink:href='./img/icon/icon.svg#about-1'></use>
+                                </svg>
+                            </div>
+                            <div class="desc__specif">
+                                <h3 class="desc__title">200+</h3>
+                                <h4 class="desc__subtitle">Профессиональные инструкторы</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="##" class="about__description-link">
+                        <div class="desc__card-info card-green">
+                            <div class="desc__img hv-center card-green">
+                                <svg class='about-2'>
+                                    <use xlink:href='./img/icon/icon.svg#about-2'></use>
+                                </svg>
+                            </div>
+                            <div class="desc__specif">
+                                <h3 class="desc__title">6000+</h3>
+                                <h4 class="desc__subtitle">Все области курсов</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="##" class="about__description-link">
+                        <div class="desc__card-info card-blue">
+                            <div class="desc__img hv-center card-blue">
+                                <svg class='about-3'>
+                                    <use xlink:href='./img/icon/icon.svg#about-3'></use>
+                                </svg>
+                            </div>
+                            <div class="desc__specif">
+                                <h3 class="desc__title">1200+</h3>
+                                <h4 class="desc__subtitle">Студенты по всему миру</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- about__description -->
+            </div><!-- about__header -->
+        </div><!-- Container -->
+    </section>
+    <section class="about-info">
+        <div class="about-info__one-background">
+            <div class="container">
+                <div class="about-info__content">
+                    <div class="about-info__one">
+                        <div class="one__img">
+                            <img class="img" src="./img/about_girl.jpg" alt="">
+                            <img class="one__img-elips img" src="./img/elips-girl.png" alt="">
+                        </div>
+                        <div class="one__text">
+                            <h2 class="one__title">Обучение для всех расширьте свои знания</h2>
+                            <p class="one__subtitle">Lorem Ipsum - это просто фиктивный текст печатной и наборной
+                                промышленности. Lorem Ipsum был отраслевым стандартом.</p>
+                            <ol>
+                                <li class="one__list">Запустите свой аккаунт
+                                    <p>Lorem Ipsum - это просто фиктивный текст печатной и наборной промышленности.</p>
+                                </li>
+                                <li class="one__list">Учись учиться
+                                    <p>Lorem Ipsum - это просто фиктивный текст печатной и наборной промышленности.</p>
+                                </li>
+                                <li class="one__list">Используйте учебные материалы
+                                    <p>Lorem Ipsum - это просто фиктивный текст печатной и наборной промышленности.</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Container -->
+        </div><!-- about-info__one-background -->
+        <div class="container">
+            <div class="about-info__one info__two">
+                <div class="one__text two__text">
+                    <h2 class="one__title two__title">Улучшай свои навыки</h2>
+                    <p class="one__subtitle">Это давно установленный факт, что читатель будет отвлекаться на читаемое
+                        содержание страницы, когда смотрит на ее макет.
+                        Смысл использования Lorem Ipsum заключается в том, что он имеет более или менее нормальное
+                        распределение букв.</p>
+                    <a class="button button__mini" href="##">Подробнее</a>
+                </div>
+                <div class="one__img two-img">
+                    <img class="img" src="./img/about-skill.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="courses">
+        <div class="container">
+            <div class="hv-center">
+                <div class="courses__header">
+                    <h2 class="courses__title">Как мы это делаем!</h2>
+                    <h3 class="about__subtitle">Lorem Ipsum - это просто фиктивный текст печатной и наборной
+                        промышленности. Lorem Ipsum был отраслевым стандартом.</h3>
+                </div>
+            </div>
+            <div class="courses__content">
+                <div class="shortcuts">
+                    <div class="shortcuts__card">
+                        <div class="shortcuts__preview">
+                            <a class="shortcuts__doplink" href="##">
+                                <img class="img" src="./img/shortcuts-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="shortcuts__info">
+                            <a class="shortcuts__doplink" href="##">
+                                <h2 class="shortcuts__title">Самостоятельное мышление
+                                    в образовании</h2>
+                            </a>
+                            <h3 class="shortcuts__breif">Lorem Ipsum - это просто фиктивный текст.</h3>
+                            <a class="shortcuts__link" href="##">Учить больше </a>
+                        </div>
+                    </div>
+                    <div class="shortcuts__card">
+                        <div class="shortcuts__preview">
+                            <a class="shortcuts__doplink" href="##">
+                                <img class="img" src="./img/shortcuts-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="shortcuts__info">
+                            <a class="shortcuts__doplink" href="##">
+                                <h2 class="shortcuts__title">Более широкая поддержка образования</h2>
+                            </a>
+                            <h3 class="shortcuts__breif">Lorem Ipsum - это просто фиктивный текст.</h3>
+                            <a class="shortcuts__link" href="##">Учить больше </a>
+                        </div>
+                    </div>
+                    <div class="shortcuts__card">
+                        <div class="shortcuts__preview">
+                            <a class="shortcuts__doplink" href="##">
+                                <img class="img" src="./img/shortcuts-3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="shortcuts__info">
+                            <a class="shortcuts__doplink" href="##">
+                                <h2 class="shortcuts__title">Учитесь в отдаленных районах и дома</h2>
+                            </a>
+                            <h3 class="shortcuts__breif">Lorem Ipsum - это просто фиктивный текст.</h3>
+                            <a class="shortcuts__link" href="##">Учить больше </a>
+                        </div>
+                    </div>
+                    <div class="shortcuts__card">
+                        <div class="shortcuts__preview">
+                            <a class="shortcuts__doplink" href="##">
+                                <img class="img" src="./img/shortcuts-4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="shortcuts__info">
+                            <a class="shortcuts__doplink" href="##">
+                                <h2 class="shortcuts__title">Развитие и улучшение качества</h2>
+                            </a>
+                            <h3 class="shortcuts__breif">Lorem Ipsum - это просто фиктивный текст.</h3>
+                            <a class="shortcuts__link" href="##">Учить больше </a>
+                        </div>
+                    </div>
+                    <div class="shortcuts__card">
+                        <div class="shortcuts__preview">
+                            <a class="shortcuts__doplink" href="##">
+                                <img class="img" src="./img/shortcuts-5.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="shortcuts__info">
+                            <a class="shortcuts__doplink" href="##">
+                                <h2 class="shortcuts__title">ICT в образовании и стажировке</h2>
+                            </a>
+                            <h3 class="shortcuts__breif">Lorem Ipsum - это просто фиктивный текст.</h3>
+                            <a class="shortcuts__link" href="##">Учить больше </a>
+                        </div>
+                    </div>
+                    <div class="shortcuts__card">
+                        <div class="shortcuts__preview">
+                            <a class="shortcuts__doplink" href="##">
+                                <img class="img" src="./img/shortcuts-6.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="shortcuts__info">
+                            <a class="shortcuts__doplink" href="##">
+                                <h2 class="shortcuts__title">Инклюзивность</h2>
+                            </a>
+                            <h3 class="shortcuts__breif">Lorem Ipsum - это просто фиктивный текст.</h3>
+                            <a class="shortcuts__link" href="##">Учить больше </a>
+                        </div>
+                    </div>
+                </div><!-- shortcuts -->
+            </div><!-- courses__content -->
+        </div><!-- Container -->
+    </section>
+    <section class="help">
+        <div class="container">
+            <div class="help__content">
+                <div class="help__one-post">
+                    <div class="help__img">
+                        <img class="img aimg" src="./img/help-girl.png" alt="">
+                        <div class="help__img-effect"></div>
+                    </div>
+                    <div class="help__info">
+                        <p>“Вопреки распространенному мнению, Lorem Ipsum - это не просто случайный текст. Он уходит
+                            корнями в классическую латинскую литературу 45 года до нашей эры, что делает его более чем
+                            2000 - летним. Ричард МакКлинток, профессор латыни в Хэмпден-Сиднейском колледже в
+                            Вирджинии, нашел одно из самых непонятных латинских слов”</p>
+                        <div class="autor">
+                            <p class="autor__name">Lisa Willamson</p>
+                            <p class="autor__prof">Student</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="help__two-post">
+                    <div class="help__info help__info-two">
+                        <p><b>75% людей</b>, обучающихся для профессионального развития, сообщают о <b>карьерных
+                                преимуществах</b>,
+                            таких как повышение по службе, повышение зарплаты или начало новой карьеры</p>
+                        <div class="help__link">
+                            <a href="##">Присоединяйтесь Бесплатно</a>
+                        </div>
+                    </div>
+                    <div class="help__img-two">
+                        <img class="img aimg" src="./img/help-two.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <a href="##"><img data-anchor='.header' class="nav__link" src="./img/logo.svg" alt="class"></a>
+                </div>
+                <div class="footer__social">
+                    <div class="social">
+                        <ul class="social__ul">
+                            <li class="social__btn">
+                                <a href="##" target="_blank" rel="noopener noreferrer">
+                                    <svg class='facebook'>
+                                        <use xlink:href='./img/icon/icon_social.svg#facebook'></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__btn">
+                                <a href="##" target="_blank" rel="noopener noreferrer">
+                                    <svg class='twitter'>
+                                        <use xlink:href='./img/icon/icon_social.svg#twitter'></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__btn">
+                                <a href="https://www.instagram.com/bladhard/" target="_blank" rel="noopener noreferrer">
+                                    <svg class='instagram' id="instagram">
+                                        <use style="pointer-events:none;"
+                                            xlink:href='./img/icon/icon_social.svg#instagram'></use>
+                                        <defs>
+                                            <radialGradient id="MyGradient" cx="0" cy="1" r="1.3">
+                                                <stop offset="0" stop-color="var(--color-stop-1)">
+                                                    <animate dur="0.3s" attributeName="offset" fill="freeze" from="0"
+                                                        to="0.01" begin="instagram.mouseover" />
+                                                </stop>
+                                                <stop offset="5%" stop-color="var(--color-stop-1)">
+                                                    <animate dur="0.3s" attributeName="offset" fill="freeze" from="0"
+                                                        to="0.05" begin="instagram.mouseover" />
+                                                </stop>
+                                                <stop offset="45%" stop-color="var(--color-stop-2)">
+                                                    <animate dur="0.3s" attributeName="offset" fill="freeze" from="0"
+                                                        to="0.45" begin="instagram.mouseover" />
+                                                </stop>
+                                                <stop offset="60%" stop-color="var(--color-stop-3)">
+                                                    <animate dur="0.3s" attributeName="offset" fill="freeze" from="0"
+                                                        to="0.60" begin="instagram.mouseover" />
+                                                </stop>
+                                                <stop offset="99%" stop-color="var(--color-stop-4)">
+                                                    <animate dur="0.3s" attributeName="offset" fill="freeze" from="0"
+                                                        to="0.99" begin="instagram.mouseover" />
+                                                </stop>
+                                            </radialGradient>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__btn">
+                                <a href="https://vk.com/bladhard" target="_blank" rel="noopener noreferrer">
+                                    <svg class='vk'>
+                                        <use xlink:href='./img/icon/icon_social.svg#vk'></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__btn">
+                                <a href="##" target="_blank" rel="noopener noreferrer">
+                                    <svg class='youtube'>
+                                        <use xlink:href='./img/icon/icon_social.svg#youtube'></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- social -->
+                    <div class="footer__copyright">
+                        <b>© 2021</b><a href="mailto:Bladhard@ya.ru"> Александр «Bladhard» Назаров</a>
+                    </div>
+                </div><!-- footer__social -->
+                <div class="footer__tel">
+                    <a href="tel:+79005005881">
+                        <svg class='phone'>
+                            <use xlink:href='./img/icon/icon.svg#phone'></use>
+                        </svg>
+                        8 900 500-58-81
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="anchor">
+        <div class="anchor__box">
+            <a class="anchor__button" href="##">
+                <svg class='arrow-top'>
+                    <use xlink:href='./img/icon/icon.svg#arrow-top'></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div id="popup-inout" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="##" class="popup__close  close-popup"><img src="./img/icon/close.svg" alt="X"></a>
+                <div class="popup__title">Вход</div>
+                <div class="popup__container">
+                    <form class="popup__form " action="#" method="get">
+                        <div class="form">
+                            <h3 class="form__text">Ваш Логин / e-mail</h3>
+                            <input class="form__input" maxlength="25" size="40" name="login"
+                                placeholder="Введите Логин / e-mail ">
+                        </div>
+                        <div class="form">
+                            <h3 class="form__text">Ваш пароль</h3>
+                            <input class="form__input" type="password" maxlength="25" size="40" name="password"
+                                placeholder="Введите Пароль">
+                        </div>
+                        <button class="button form-button" type="submit">ВОЙТИ</button>
+                    </form>
+                    <div class="popup__footer">
+                        <div class="popup__footer-link">
+                            <a href="##" class="popup__link">Забыли пароль?</a>
+                            <a href="#popup-reg" class="popup__link popup-link">Регистрация</a>
+                        </div>
+                        <div class="popup__footer-social">
+                            <div class="popup__footer-social-text">
+                                Войти через:
+                            </div>
+                            <div class="social">
+                                <ul class="social__ul">
+                                    <li class="social__btn">
+                                        <a href="##" target="_blank" rel="noopener noreferrer">
+                                            <svg class='facebook popup-color-social'>
+                                                <use xlink:href='./img/icon/icon_social.svg#facebook'></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social__btn">
+                                        <a href="##" target="_blank" rel="noopener noreferrer">
+                                            <svg class='twitter popup-color-social'>
+                                                <use xlink:href='./img/icon/icon_social.svg#twitter'></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social__btn">
+                                        <a href="##" target="_blank" rel="noopener noreferrer">
+                                            <svg class='instagram popup-color-social' id="instagram">
+                                                <use style="pointer-events:none;"
+                                                    xlink:href='./img/icon/icon_social.svg#instagram'></use>
+                                                <defs>
+                                                    <radialGradient id="MyGradient" cx="0" cy="1" r="1.3">
+                                                        <stop offset="0" stop-color="var(--color-stop-1)">
+                                                            <animate dur="0.3s" attributeName="offset" fill="freeze"
+                                                                from="0" to="0.01" begin="instagram.mouseover" />
+                                                        </stop>
+                                                        <stop offset="5%" stop-color="var(--color-stop-1)">
+                                                            <animate dur="0.3s" attributeName="offset" fill="freeze"
+                                                                from="0" to="0.05" begin="instagram.mouseover" />
+                                                        </stop>
+                                                        <stop offset="45%" stop-color="var(--color-stop-2)">
+                                                            <animate dur="0.3s" attributeName="offset" fill="freeze"
+                                                                from="0" to="0.45" begin="instagram.mouseover" />
+                                                        </stop>
+                                                        <stop offset="60%" stop-color="var(--color-stop-3)">
+                                                            <animate dur="0.3s" attributeName="offset" fill="freeze"
+                                                                from="0" to="0.60" begin="instagram.mouseover" />
+                                                        </stop>
+                                                        <stop offset="99%" stop-color="var(--color-stop-4)">
+                                                            <animate dur="0.3s" attributeName="offset" fill="freeze"
+                                                                from="0" to="0.99" begin="instagram.mouseover" />
+                                                        </stop>
+                                                    </radialGradient>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social__btn">
+                                        <a href="##" target="_blank" rel="noopener noreferrer">
+                                            <svg class='vk popup-color-social'>
+                                                <use xlink:href='./img/icon/icon_social.svg#vk'></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social__btn">
+                                        <a href="##" target="_blank" rel="noopener noreferrer">
+                                            <svg class='youtube popup-color-social'>
+                                                <use xlink:href='./img/icon/icon_social.svg#youtube'></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div><!-- social -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- popup-inout -->
+    <div id="popup-reg" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="##" class="popup__close  close-popup"><img src="./img/icon/close.svg" alt="X"></a>
+                <div class="popup__title">РЕГИСТРАЦИЯ</div>
+                <div class="popup__container">
+                    <form class="popup__form " action="#" method="get">
+                        <div class="form">
+                            <h3 class="form__text">Ваш e-mail</h3>
+                            <input class="form__input" maxlength="25" size="40" name="login"
+                                placeholder="Введите e-mail">
+                        </div>
+                        <div class="form">
+                            <h3 class="form__text">Придумайте Пароль</h3>
+                            <input class="form__input" type="password" maxlength="25" size="40" name="password"
+                                placeholder="Введите Пароль">
+                        </div>
+                        <div class="form">
+                            <h3 class="form__text">Повторите Пароль</h3>
+                            <input class="form__input" type="password" maxlength="25" size="40" name="password"
+                                placeholder="Повторите Пароль">
+                        </div>
+                        <button class="button form-button" type="submit">Регистрация</button>
+                    </form>
+                    <div class="popup__footer">
+                        <div class="popup__footer-link">
+                            <a href="##" class="popup__link">Восстановить пароль</a>
+                            <a href="#popup-inout" class="popup__link popup-link">Войти</a>
+                        </div>
+                        <div class="popup__footer-social">
+                            <div class="popup__footer-social-text">
+                                Войти через:
+                            </div>
+                            <div class="social">
+                                <ul class="social__ul">
+                                    <li class="social__btn">
+                                        <a href="##" target="_blank" rel="noopener noreferrer">
+                                            <svg class='facebook popup-color-social'>
+                                                <use xlink:href='./img/icon/icon_social.svg#facebook'></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social__btn">
+                                        <a href="##" target="_blank" rel="noopener noreferrer">
+                                            <svg class='twitter popup-color-social'>
+                                                <use xlink:href='./img/icon/icon_social.svg#twitter'></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social__btn">
+                                        <a href="##" target="_blank" rel="noopener noreferrer">
+                                            <svg class='instagram popup-color-social' id="instagram">
+                                                <use style="pointer-events:none;"
+                                                    xlink:href='./img/icon/icon_social.svg#instagram'></use>
+                                                <defs>
+                                                    <radialGradient id="MyGradient" cx="0" cy="1" r="1.3">
+                                                        <stop offset="0" stop-color="var(--color-stop-1)">
+                                                            <animate dur="0.3s" attributeName="offset" fill="freeze"
+                                                                from="0" to="0.01" begin="instagram.mouseover" />
+                                                        </stop>
+                                                        <stop offset="5%" stop-color="var(--color-stop-1)">
+                                                            <animate dur="0.3s" attributeName="offset" fill="freeze"
+                                                                from="0" to="0.05" begin="instagram.mouseover" />
+                                                        </stop>
+                                                        <stop offset="45%" stop-color="var(--color-stop-2)">
+                                                            <animate dur="0.3s" attributeName="offset" fill="freeze"
+                                                                from="0" to="0.45" begin="instagram.mouseover" />
+                                                        </stop>
+                                                        <stop offset="60%" stop-color="var(--color-stop-3)">
+                                                            <animate dur="0.3s" attributeName="offset" fill="freeze"
+                                                                from="0" to="0.60" begin="instagram.mouseover" />
+                                                        </stop>
+                                                        <stop offset="99%" stop-color="var(--color-stop-4)">
+                                                            <animate dur="0.3s" attributeName="offset" fill="freeze"
+                                                                from="0" to="0.99" begin="instagram.mouseover" />
+                                                        </stop>
+                                                    </radialGradient>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social__btn">
+                                        <a href="##" target="_blank" rel="noopener noreferrer">
+                                            <svg class='vk popup-color-social'>
+                                                <use xlink:href='./img/icon/icon_social.svg#vk'></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social__btn">
+                                        <a href="##" target="_blank" rel="noopener noreferrer">
+                                            <svg class='youtube popup-color-social'>
+                                                <use xlink:href='./img/icon/icon_social.svg#youtube'></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div><!-- social -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- popup-reg -->
+    <!-- ========================| JS Script |======================== -->
+    <script src="js/pop-up.js"></script>
+    <!-- <script src="js/header-fixed.js"></script> -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
